@@ -1,26 +1,10 @@
 (lang dune 3.11)
 
-(name advent_of_code_2023)
+(name advent_of_code)
 
-(generate_opam_files true)
-
-(source
- (github username/reponame))
-
-(authors "Author Name")
-
-(maintainers "Maintainer Name")
-
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(authors "Henri <henri@henr.in>")
 
 (package
- (name advent_of_code_2023)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
+ (name advent_of_code)
+ (synopsis "Advent of Code 2023")
+ (depends ocaml dune))
